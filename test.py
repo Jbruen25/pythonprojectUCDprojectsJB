@@ -203,6 +203,7 @@ recession_text = "07/03/90"
 # Create format string
 recession_format_str = "%Y/%m/%d"
 
+
 # Create datetime from text using format string
 nineties_rec = datetime.datetime.strptime(____, ____)
 print(nineties_rec)
